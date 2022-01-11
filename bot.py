@@ -37,13 +37,13 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Doodstream Links.....  I'll convert & replace all Doodstream links with your Doodstream links \nReport Bugs at @TeleRoid14**")
+        "**If you send post which had Doodstream Links.....  I'll convert & replace all Doodstream links with your Doodstream links \nReport Bugs at @jetbots**")
 
 @bot.on_message(filters.command('report') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @TeleRoid14**")
+        "**please contact me on @jetbots**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
